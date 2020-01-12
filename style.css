@@ -1,0 +1,71 @@
+body{
+  margin; 0
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+
+header{
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  line-height: 50px;
+  background-color: #eee;
+}
+header * {
+  display: inline;
+  height: 50px;
+}
+header ul{
+  padding: 0;
+}
+
+header li{
+  margin-left: 20px;
+}
+
+section{
+  height:100vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-size: cover;
+  background-position: center center;
+  backgrnud-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+footer{
+  text-align:center;
+  padding: 50px;
+}
+#Frank h1{
+  font-size: 3em;
+}
+
+section h2{
+  font-size: 2.5em;
+}
+
+section h3{
+  font-size: 1.5em;
+}
+header a{
+  text-decoration: none;
+  color: black;
+}
+
+#Frank{
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://i.redd.it/tq46fcbpcea41.jpg');
+}
+#About{
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://i.redd.it/ptzvycsc7ca41.png');
+}
+#Contact{
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://i.redd.it/gc9j02ig98a41.jpg');
+}
