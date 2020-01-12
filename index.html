@@ -1,59 +1,221 @@
 <!DOCTYPE html>
-<html>
-  <head>
-      <title> Frank Fan </title>
-      <link rel = "stylesheet" href = "style.css">
-  </head>
-  <body>
-    <header>
-      
-      <nav>
-        <ul>
-          <li><a href = "#Frank">Home</a></li>
-          <li><a href = "#About">About</a></li>
-          <li><a href = "#Contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<html lang="en">
+<head>
 
-    <main>
-      <section id="Frank">
-        <div class = "section-inner">
-          <h1>Hi' My name is Frank Fan. </h1>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Frank Fan</title>
+  <meta name="description" content="Studies Computer Science at the University of Waterloo">
+  <meta name="author" content="Frank Fan">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href = "#Home">Home</a></li>
+        <li><a href = "#About">About</a></li>
+        <li><a href = "#Skills">Skills</a></li>
+        <li><a href = "#Experience">Experience</a></li>
+        <li><a href = "#Projects">Projects</a></li>
+        <li><a href = "#Question">Question</a></li>
+        <li><a href = "#Contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- .container is main centered wrapper -->
+  <main>
+    <section id="Home">
+      <div class="container">
+        <!-- columns should be the immediate child of a .row -->
+        <div class="row">
+          <div class="one-half column" style="margin-top: 25%" align="center">
+            <h4>Frank Fan</h4>
+            <p>1B Computer Science
+            <p>University of Waterloo || 2019-2024</p>
+            </div>
+            <div class="one-half column" style="margin-top: 15%">
+
+              <img src="images/homeFrankHeadshot.JPG" align="right" class ="myimg"/>
+
+            </div>
+          </div>
         </div>
       </section>
 
       <section id="About">
-        <div class = "section-inner">
-          <h2>About me </h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <h3>Achievements</h3>
-          <ul>
-            <li>Bachelor of Computer Science at University of Waterloo</li>
-            <li>Achievement 2</li>
-            <li>Achievement 3</li>
-          </ul>
+        <div class="container">
+          <!-- columns should be the immediate child of a .row -->
+          <div class="row">
+            <div class="one-half column" style="margin-top: 15%">
+              <h4>About Me</h4>
+              <p>Welcome! Here is a brief bio about me: Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="one-half column" style="margin-top: 15%">
+
+                <img src="images/homeFrankHeadshot.JPG" align="right" class ="myimg"/>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+      <section id="Skills">
+        <div class="container">
+          <div class="row">
+            <div class="u-full-width" style="margin-top: 15%">
+              <center>
+                <h5>Skills</h5>
+              </center>
+            </div>
+          </div>
+          <div class="row">
+            <div class="six columns" align="right">
+              <h6>Languages</h6>
+              <ul>
+                <li>Java</li>
+                <li>Swift</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C/C++</li>
+              </ul>
+            </div>
+            <div class="six columns">
+              <h6>Software</h6>
+              <ul>
+                <li>MATLAB</li>
+                <li>XCode</li>
+                <li>Excel</li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </section>
+
+      <section id="Experience">
+        <div class="container">
+          <div class="row">
+            <div class="u-full-width" style="margin-top: 15%">
+              <center>
+                <h5>Experience/Achievements</h5>
+              </center>
+            </div>
+          </div>
+          <div class="row">
+            <div class="six columns">
+              <ul>
+                <li>HOSA Canada SLC Finalist - HOSA Bowl (2017)</li>
+                <li>Varsity Soccer - Starting Defender</li>
+                <li>YMCA Day Camp Counsellor</li>
+                <li>President's Scholarship of Distinction (2019)</li>
+                <li>Nortel Institute Scholarship (2019)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Projects">
+        <div class="container">
+          <div class="row">
+            <div class="u-full-width" style="margin-top: 15%">
+              <center>
+                <h5>Projects</h5>
+              </center>
+            </div>
+          </div>
+          <div class="row">
+            <div class="six columns" style="margin-top: 15%">
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <!-- The above form looks like this -->
+      <section id="Question">
+        <form>
+          <div class="container">
+            <div class="row">
+              <div class="six columns" style="margin-top: 15%">
+                <h5>Submit a Question</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="six columns">
+                <label for="exampleEmailInput">Your email</label>
+                <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+              </div>
+              <div class="six columns">
+                <label for="exampleRecipientInput">Reason for contacting</label>
+                <select class="u-full-width" id="exampleRecipientInput">
+                  <option value="Option 1">Questions</option>
+                  <option value="Option 2">Comments</option>
+                  <option value="Option 3">Concerns</option>
+                </select>
+              </div>
+            </div>
+            <label for="exampleMessage">Message</label>
+            <textarea class="u-full-width" placeholder="" id="exampleMessage"></textarea>
+            <label class="example-send-yourself-copy">
+              <input type="checkbox">
+              <span class="label-body">Send a copy to yourself</span>
+            </label>
+            <input class="button-primary" type="submit" value="Submit">
+          </div>
+        </form>
       </section>
 
       <section id="Contact">
-        <div class = "section-inner">
-          <h2>Contact Me</h2>
-          <p>You can find me on: </p>
-          <ul>
-            <li><a href="https://linkedin.com/in/frankfan8">LinkedIn</a></li>
-            <li><a href="https://github.com/frankfan8">GitHub</a></li>
-          </ul>
-          <p>Or, you can <a href = "mailto:y235fan@uwaterloo.ca"> send me an email</a>.</p>
+        <div class = "container">
+          <div class="row">
+            <div class="u-full-width" style="margin-top: 25%">
+              <center>
+                <h4>Contact Me</h4>
+                <p>You can find me on: </p>
+                <a href="https://linkedin.com/in/frankfan8"><img src="images/logoLinkedin.png" class ="myLogo"/></a>
+                <a href="https://github.com/frankfan8"><img src="images/logoGithub.png" class ="myLogo"/></a>
+                <p>Or, you can <a href = "mailto:y235fan@uwaterloo.ca"> send me an email</a>.</p>
+              </center>
+            </div>
+          </div>
         </div>
-      </section>
+      </main>
+      <!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
 
-    </main>
+      <!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% -->
 
-    <footer>
-      Copyright Frank FAn, 2020
-    </footer>
-
-    <h1> Just testing this works! </h1>
-  </body>
-<html>
+      <!-- End Document
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <footer>
+        Copyright Frank Fan, 2020
+      </footer>
+    </body>
+    </html>
