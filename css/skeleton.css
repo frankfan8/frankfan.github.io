@@ -85,25 +85,25 @@ header a{
 }
 
 #Home{
-  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://i.redd.it/tq46fcbpcea41.jpg');
+  background-image: url('../images/homeBackground.jpg'), linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)) ;
 }
 #About{
-  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://i.imgur.com/OQSlk9N.png');
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/aboutBackground.png');
 }
 #Skills{
-  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://i.redd.it/qts3l2465s841.png');
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/skillsBackground.png');
 }
 #Experience{
-  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://i.redd.it/s4lwj4scfj741.png');
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/experienceBackground.png');
 }
 #Projects{
-  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://i.imgur.com/B1dCorE.jpg');
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/projectBackground.jpg');
 }
 #Question{
-  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://i.redd.it/ptzvycsc7ca41.png');
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/questionBackground.png');
 }
 #Contact{
-  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://i.redd.it/gc9j02ig98a41.jpg');
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/contactBackground.jpg');
 }
 
 /* Grid
