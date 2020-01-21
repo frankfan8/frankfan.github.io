@@ -85,7 +85,7 @@ header a{
 }
 
 #Home{
-  background-image: url('../images/homeBackground.jpg'), linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)) ;
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/homeBackground.jpg');
 }
 #About{
   background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/aboutBackground.png');
