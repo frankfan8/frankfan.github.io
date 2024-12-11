@@ -28,9 +28,12 @@
             text-decoration: underline;
         }
         header {
-            text-align: center;
             padding: 2em;
             background-color: #ffc2d1;
+            display: flex;  /* Use flexbox to align image and text */
+            align-items: center;  /* Vertically center the content */
+            justify-content: center;  /* Optional: center the content horizontally */
+            gap: 20px;  /* Space between the image and text */
         }
         header h1 {
             color: #ff4d6d;
@@ -38,6 +41,12 @@
         header p {
             font-size: 1.2em;
             color: #333;
+        }
+        .portrait {
+            width: 300px;  /* Adjust the width of the image */
+            height: auto;  /* Keeps the aspect ratio */
+            border-radius: 30px;  /* Makes the image round */
+            object-fit: cover;  /* Ensures the image doesn't get distorted */
         }
     </style>
 </head>
@@ -48,8 +57,14 @@
         <a href="Resources/cv.pdf">CV</a>
     </nav>
     <header>
-        <h1>Welcome to My Website</h1>
-        <p>Hello! I'm Frank. I am a first-year Masters student at the University of Waterloo advised by <a href="http://pedrinho.cs.uwaterloo.ca/~gvgbaran/">Gladimir Baranoski</a> and a member of the <a href="https://www.npsg.uwaterloo.ca/index.php">Natural Phenomena Simulation Group.</a></p>
+        <!-- Portrait image on the left side -->
+        <img src="images/IMG_4303.JPG" class="portrait">
+        
+        <!-- Text content -->
+        <div>
+            <h1>Frank Fan</h1>
+            <p>Hello! I'm Frank. I am a first-year Masters student at the University of Waterloo advised by <a href="http://pedrinho.cs.uwaterloo.ca/~gvgbaran/">Gladimir Baranoski</a> and a member of the <a href="https://www.npsg.uwaterloo.ca/index.php">Natural Phenomena Simulation Group.</a></p>
+        </div>
     </header>
 </body>
 </html>
